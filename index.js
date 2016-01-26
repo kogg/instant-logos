@@ -1,9 +1,9 @@
 module.exports = [
-	{ id: 0, name: 'adobe illustrator' },
-	{ id: 1, name: 'adobe photoshop' },
-	{ id: 2, name: 'adobe' },
-	{ id: 3, name: 'facebook' },
-	{ id: 4, name: 'netflix' },
-	{ id: 5, name: 'redfin' },
-	{ id: 6, name: 'zillow' },
+	{ id: 0, name: 'Adobe' },
+	{ id: 1, name: 'Adobe Illustrator' },
+	{ id: 2, name: 'Adobe Photoshop' },
+	{ id: 3, name: 'Facebook' },
+	{ id: 4, name: 'Netflix' },
+	{ id: 5, name: 'Redfin' },
+	{ id: 6, name: 'Zillow' },
 ];
