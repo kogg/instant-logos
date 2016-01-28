@@ -1,12 +1,13 @@
 {
   "name": "instant-logos",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "All the logos of instantlogosearch.com",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kogg/instant-logos.git"
   },
   "license": "MIT",
+  "main": "index.js",
   "bugs": {
     "url": "https://github.com/kogg/instant-logos/issues"
   },
