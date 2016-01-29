@@ -1,3 +1,6 @@
-var gilbarbara_logos = require('./gilbarbara_logos');
+var _ = require('underscore');
 
-module.exports = gilbarbara_logos;
+module.exports = _.union(
+	require('./file_logos'),
+	require('./gilbarbara_logos')
+);

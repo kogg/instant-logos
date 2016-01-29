@@ -1,0 +1,25 @@
+var _    = require('underscore');
+var fs   = require('fs');
+var path = require('path');
+
+module.exports = _.chain(fs.readdirSync(path.join(__dirname, 'logos')))
+	.without('.gitignore')
+	.map(function(file) {
+		var file_parts = file.split('.');
+		var name;
+		if (file_parts.length < 2) {
+			name = file;
+		} else {
+			name = _.initial(file_parts).join('.');
+		}
+		return {
+			id:      'manual-' + name.replace(/\s+/, '-'),
+			name:    name,
+			svg_url: path.join(__dirname, 'logos', file),
+			source:  {
+				name:      'Manual',
+				shortname: 'manual'
+			}
+		};
+	})
+	.value();
