@@ -7,7 +7,7 @@ module.exports = _.chain(gilbarbara_logos)
 	.map(function(logo) {
 		return _.map(logo.files, function(file, i) {
 			return {
-				id:      'svg-porn/' + logo.shortname + '/' + i,
+				id:      'svg-porn-' + logo.shortname + '-' + i,
 				name:    logo.name,
 				svg_url: path.join(__dirname, 'node_modules/logos/logos', file),
 				source:  {
