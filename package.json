@@ -13,6 +13,7 @@
   },
   "homepage": "https://github.com/kogg/instant-logos#readme",
   "dependencies": {
-    "logos": "gilbarbara/logos#app"
+    "logos": "gilbarbara/logos#app",
+    "underscore": "^1.8.3"
   }
 }
