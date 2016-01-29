@@ -11,5 +11,8 @@
   "bugs": {
     "url": "https://github.com/kogg/instant-logos/issues"
   },
-  "homepage": "https://github.com/kogg/instant-logos#readme"
+  "homepage": "https://github.com/kogg/instant-logos#readme",
+  "dependencies": {
+    "logos": "gilbarbara/logos#app"
+  }
 }
