@@ -13,12 +13,17 @@ module.exports = _.chain(fs.readdirSync(path.join(__dirname, 'logos')))
 			name = _.initial(file_parts).join('.');
 		}
 		return {
-			id:      'manual-' + name.replace(/\s+/, '-'),
-			name:    name,
-			svg_url: path.join(__dirname, 'logos', file),
-			source:  {
-				name:      'Manual',
-				shortname: 'manual'
+			id:   'manual-' + name.replace(/\s+/, '-'),
+			name: name,
+			svg:  {
+				path: {
+					directory: path.join(__dirname, 'logos'),
+					filename:  file
+				}
+			},
+			source: {
+				name:      'Instant Logo Search',
+				shortname: 'instantlogosearch'
 			}
 		};
 	})
