@@ -15,5 +15,4 @@ module.exports = _.chain(gilbarbara_logos)
 	})
 	.flatten()
 	.compact()
-	.sortBy('name')
 	.value();
