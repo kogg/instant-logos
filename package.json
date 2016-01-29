@@ -8,6 +8,15 @@
   },
   "license": "MIT",
   "main": "index.js",
+  "scripts": {
+    "test": "eslint . --ignore-path .gitignore --ext .js,.jsx",
+    "fix": "npm run eslint:fix",
+    "eslint:fix": "( git diff --staged --name-only | grep \".jsx\\?$\" | xargs eslint --fix ) && ( git diff --staged --name-only | grep \".jsx\\?$\" | xargs git add )"
+  },
+  "pre-commit": [
+    "fix",
+    "test"
+  ],
   "bugs": {
     "url": "https://github.com/kogg/instant-logos/issues"
   },
@@ -15,5 +24,10 @@
   "dependencies": {
     "logos": "gilbarbara/logos#app",
     "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-xo": "^0.9.2",
+    "pre-commit": "^1.1.2"
   }
 }

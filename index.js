@@ -9,7 +9,7 @@ module.exports = _.chain(gilbarbara_logos)
 			return {
 				id:      'gilbarbara/logos/' + logo.shortname + '/' + i,
 				name:    logo.name,
-				svg_url: path.join(__dirname, 'node_modules/logos/logos', file),
+				svg_url: path.join(__dirname, 'node_modules/logos/logos', file)
 			};
 		});
 	})
