@@ -3,7 +3,9 @@ var fs   = require('fs');
 var path = require('path');
 
 module.exports = _.chain(fs.readdirSync(path.join(__dirname, 'logos')))
-	.without('.gitignore')
+	.reject(function(logo) {
+		return logo.charAt(0) === '.';
+	})
 	.map(function(file) {
 		var file_parts = file.split('.');
 		var name;
