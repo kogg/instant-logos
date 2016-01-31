@@ -23,6 +23,7 @@
   "homepage": "https://github.com/kogg/instant-logos#readme",
   "dependencies": {
     "logos": "gilbarbara/logos#app",
+    "speakingurl": "^8.0.2",
     "underscore": "^1.8.3"
   },
   "devDependencies": {
