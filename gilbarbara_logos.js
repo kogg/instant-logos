@@ -2,12 +2,6 @@ var _                = require('underscore');
 var gilbarbara_logos = require('logos/app/logos');
 var path             = require('path');
 
-var source = {
-	name:      'SVG PORN',
-	shortname: 'svgporn',
-	url:       'http://svgporn.com'
-};
-
 module.exports = _.chain(gilbarbara_logos)
 	.result('items')
 	.reject(function(logo) {
@@ -20,10 +14,18 @@ module.exports = _.chain(gilbarbara_logos)
 		}
 		return _.map(logo.files, function(file) {
 			return {
-				id:     logo.shortname,
-				name:   logo.name,
-				source: source,
-				svg:    {
+				id:          logo.shortname,
+				name:        logo.name,
+				contributor: {
+					name:      'Gil Barbara',
+					shortname: 'gilbarbara'
+				},
+				source: {
+					name:      'SVG Porn',
+					shortname: 'svgporn',
+					url:       'http://svgporn.com/'
+				},
+				svg: {
 					path: {
 						directory: path.join(__dirname, 'node_modules/logos/logos'),
 						filename:  file
