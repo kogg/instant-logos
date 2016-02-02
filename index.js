@@ -9,6 +9,10 @@ var logos = _.union(
 	require('./file_logos')
 );
 
+_.each(logos, function(logo) {
+	logo.name = logo.name.replace(/amazon (?:aws|web services)/i, 'AWS');
+});
+
 _.chain(logos)
 	.groupBy('id')
 	.reject(_.matcher({ length: 1 }))
