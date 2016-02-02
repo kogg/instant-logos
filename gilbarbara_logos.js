@@ -16,7 +16,7 @@ module.exports = _.chain(gilbarbara_logos)
 			return {
 				id:          logo.shortname,
 				name:        logo.name,
-				keywords:    _.chain(logo.tags).union(logo.categories).invoke('toLowerCase').sort().value(),
+				keywords:    [],
 				contributor: {
 					name:      'Gil Barbara',
 					shortname: 'gilbarbara'
