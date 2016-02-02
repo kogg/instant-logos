@@ -4,7 +4,8 @@ var path             = require('path');
 
 var source = {
 	name:      'SVG PORN',
-	shortname: 'svgporn'
+	shortname: 'svgporn',
+	url:       'http://svgporn.com'
 };
 
 module.exports = _.chain(gilbarbara_logos)

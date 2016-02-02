@@ -5,7 +5,8 @@ var path    = require('path');
 
 var source = {
 	name:      'Instant Logo Search',
-	shortname: 'instantlogosearch'
+	shortname: 'instantlogosearch',
+	url:       'http://instantlogosearch.com'
 };
 
 module.exports = _.chain(fs.readdirSync(path.join(__dirname, 'logos')))

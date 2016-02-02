@@ -2,6 +2,7 @@ var _ = require('underscore');
 
 var logos = _.union(
 	require('./gilbarbara_logos'),
+	require('./shgysk8zer0_logos'),
 	require('./file_logos')
 );
 
