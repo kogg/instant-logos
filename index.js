@@ -4,6 +4,7 @@ var logos = _.union(
 	require('./gilbarbara_logos'),
 	require('./shgysk8zer0_logos'),
 	require('./seanherron_Gov-Webicons'),
+	require('./seanherron_Flag-Webicons'),
 	require('./file_logos')
 );
 
