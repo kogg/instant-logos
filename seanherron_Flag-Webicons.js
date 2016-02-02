@@ -4,7 +4,6 @@ var getSlug  = require('speakingurl');
 var path     = require('path');
 
 module.exports = _.chain(fs.readdirSync(path.join(__dirname, 'node_modules/seanherron_Flag-Webicons/flags')))
-	.without('cyprus.svg', 'seychelles.svg')
 	.filter(function(file) {
 		return file.match(/\.svg$/);
 	})
