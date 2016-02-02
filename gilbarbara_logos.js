@@ -10,9 +10,9 @@ var source = {
 module.exports = _.chain(gilbarbara_logos)
 	.result('items')
 	.map(function(logo) {
-		return _.map(logo.files, function(file, i) {
+		return _.map(logo.files, function(file) {
 			return {
-				id:     source.shortname + '-' + logo.shortname + '-' + i,
+				id:     logo.shortname,
 				name:   logo.name,
 				source: source,
 				svg:    {

@@ -16,7 +16,7 @@ module.exports = _.chain(fs.readdirSync(path.join(__dirname, 'logos')))
 		var file_parts = file.split('.');
 		var name       = (file_parts.length < 2) ? file : _.initial(file_parts).join('.');
 		return {
-			id:     source.shortname + '-' + getSlug(name),
+			id:     getSlug(name),
 			name:   name,
 			source: source,
 			svg:    {
