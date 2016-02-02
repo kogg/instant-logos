@@ -2,25 +2,35 @@ var _                = require('underscore');
 var gilbarbara_logos = require('logos/app/logos');
 var path             = require('path');
 
+var source = {
+	name:      'SVG PORN',
+	shortname: 'svgporn',
+	url:       'http://svgporn.com'
+};
+
 module.exports = _.chain(gilbarbara_logos)
 	.result('items')
+	.reject(function(logo) {
+		return _.contains(['adroll', 'google-adsense', 'google-adwords'], logo.shortname);
+	})
 	.map(function(logo) {
-		return _.map(logo.files, function(file, i) {
+		if (logo.shortname === 'chrome') {
+			logo.name = 'Google Chrome';
+			logo.shortname = 'google-chrome';
+		}
+		return _.map(logo.files, function(file) {
 			return {
-				id:   'svg-porn-' + logo.shortname + '-' + i,
-				name: logo.name,
-				svg:  {
+				id:     logo.shortname,
+				name:   logo.name,
+				source: source,
+				svg:    {
 					path: {
 						directory: path.join(__dirname, 'node_modules/logos/logos'),
 						filename:  file
 					}
-				},
-				source: {
-					name:      'SVG PORN',
-					shortname: 'svgporn'
 				}
 			};
 		});
 	})
-	.flatten()
+	.flatten(true)
 	.value();

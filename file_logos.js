@@ -1,6 +1,13 @@
-var _    = require('underscore');
-var fs   = require('fs');
-var path = require('path');
+var _       = require('underscore');
+var fs      = require('fs');
+var getSlug = require('speakingurl');
+var path    = require('path');
+
+var source = {
+	name:      'Instant Logo Search',
+	shortname: 'instantlogosearch',
+	url:       'http://instantlogosearch.com'
+};
 
 module.exports = _.chain(fs.readdirSync(path.join(__dirname, 'logos')))
 	.reject(function(logo) {
@@ -8,24 +15,16 @@ module.exports = _.chain(fs.readdirSync(path.join(__dirname, 'logos')))
 	})
 	.map(function(file) {
 		var file_parts = file.split('.');
-		var name;
-		if (file_parts.length < 2) {
-			name = file;
-		} else {
-			name = _.initial(file_parts).join('.');
-		}
+		var name       = (file_parts.length < 2) ? file : _.initial(file_parts).join('.');
 		return {
-			id:   'manual-' + name.replace(/\s+/, '-'),
-			name: name,
-			svg:  {
+			id:     getSlug(name),
+			name:   name,
+			source: source,
+			svg:    {
 				path: {
 					directory: path.join(__dirname, 'logos'),
 					filename:  file
 				}
-			},
-			source: {
-				name:      'Instant Logo Search',
-				shortname: 'instantlogosearch'
 			}
 		};
 	})
