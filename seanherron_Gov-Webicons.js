@@ -20,6 +20,7 @@ module.exports = _.chain(fs.readdirSync(path.join(__dirname, 'node_modules/seanh
 		return {
 			id:          getSlug(names[i] || file),
 			name:        names[i] || file,
+			keywords:    ['government', 'america', 'states', 'united', 'usa'],
 			contributor: {
 				name:      'Sean Herron',
 				shortname: 'seanherron'
