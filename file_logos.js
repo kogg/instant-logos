@@ -3,15 +3,9 @@ var fs      = require('fs');
 var getSlug = require('speakingurl');
 var path    = require('path');
 
-var source = {
-	name:      'Instant Logo Search',
-	shortname: 'instantlogosearch',
-	url:       'http://instantlogosearch.com'
-};
-
 module.exports = _.chain(fs.readdirSync(path.join(__dirname, 'logos')))
-	.reject(function(logo) {
-		return logo.charAt(0) === '.';
+	.filter(function(file) {
+		return file.match(/\.svg$/);
 	})
 	.map(function(file) {
 		var file_parts = file.split('.');
@@ -19,8 +13,12 @@ module.exports = _.chain(fs.readdirSync(path.join(__dirname, 'logos')))
 		return {
 			id:     getSlug(name),
 			name:   name,
-			source: source,
-			svg:    {
+			source: {
+				name:      'Instant Logo Search',
+				shortname: 'instantlogosearch',
+				url:       'http://instantlogosearch.com'
+			},
+			svg: {
 				path: {
 					directory: path.join(__dirname, 'logos'),
 					filename:  file

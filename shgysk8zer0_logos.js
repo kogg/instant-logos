@@ -2,12 +2,6 @@ var _       = require('underscore');
 var getSlug = require('speakingurl');
 var path    = require('path');
 
-var source = {
-	name:      'Chris Zuber',
-	shortname: 'shgysk8zer0',
-	url:       'https://github.com/shgysk8zer0'
-};
-
 module.exports = _.map({
 	'Blender.svg':                'Blender',
 	'CreativeCommons.svg':        'Creative Commons',
@@ -27,10 +21,17 @@ module.exports = _.map({
 	'tor.svg':                    'Tor'
 }, function(name, filename) {
 	return {
-		id:     getSlug(name),
-		name:   name,
-		source: source,
-		svg:    {
+		id:          getSlug(name),
+		name:        name,
+		contributor: {
+			name:      'Chris Zuber',
+			shortname: 'shgysk8zer0'
+		},
+		source: {
+			shortname: 'shgysk8zer0-logos',
+			url:       'https://github.com/shgysk8zer0/logos'
+		},
+		svg: {
 			path: {
 				directory: path.join(__dirname, 'node_modules/shgysk8zer0_logos'),
 				filename:  filename

@@ -29,6 +29,7 @@
     "underscore": "^1.8.3"
   },
   "napa": {
+    "seanherron_Gov-Webicons": "seanherron/Gov-Webicons",
     "shgysk8zer0_logos": "shgysk8zer0/logos"
   },
   "devDependencies": {
