@@ -9,7 +9,14 @@ var source = {
 
 module.exports = _.chain(gilbarbara_logos)
 	.result('items')
+	.reject(function(logo) {
+		return _.contains(['adroll', 'google-adsense', 'google-adwords'], logo.shortname);
+	})
 	.map(function(logo) {
+		if (logo.shortname === 'chrome') {
+			logo.name = 'Google Chrome';
+			logo.shortname = 'google-chrome';
+		}
 		return _.map(logo.files, function(file) {
 			return {
 				id:     logo.shortname,
