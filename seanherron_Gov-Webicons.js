@@ -17,9 +17,10 @@ module.exports = _.chain(fs.readdirSync(path.join(__dirname, 'node_modules/seanh
 	})
 	.map(function(file, i) {
 		file = file.replace(/\.svg$/, '');
+		var shortname = file.replace(/gov-/, '');
 		return {
-			id:          getSlug(names[i] || file),
-			name:        names[i] || file,
+			id:          getSlug(shortname),
+			name:        names[i] + (names[i].toLowerCase().includes(shortname.replace('-', ' ')) ? '' : (' (' + shortname.toUpperCase() + ')')),
 			keywords:    ['government', 'america', 'states', 'united', 'usa'],
 			contributor: {
 				name:      'Sean Herron',
