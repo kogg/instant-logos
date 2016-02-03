@@ -11,6 +11,7 @@ var logos = _.union(
 
 _.each(logos, function(logo) {
 	logo.name = logo.name.replace(/amazon (?:aws|web services)/i, 'AWS');
+	logo.id = logo.id.replace(/-\d+$/, '');
 });
 
 _.chain(logos)
