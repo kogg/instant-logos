@@ -9,7 +9,7 @@ var replacements = {
 };
 
 module.exports = _.chain(fs.readdirSync(path.join(__dirname, 'node_modules/andyfitz_logomono/logos')))
-	.without('dribbble.svg', 'facebook-icon.svg', 'github.svg', 'heat.svg', 'helpdesk.svg', 'inkscape.svg')
+	.without('apple.svg', 'dribbble.svg', 'facebook-icon.svg', 'github.svg', 'heat.svg', 'helpdesk.svg', 'inkscape.svg')
 	.filter(function(file) {
 		return file.match(/\.svg$/);
 	})
