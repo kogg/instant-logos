@@ -16,7 +16,6 @@ module.exports = _.chain(gilbarbara_logos)
 			return {
 				id:          logo.shortname,
 				name:        logo.name,
-				keywords:    [],
 				contributor: {
 					name:      'Gil Barbara',
 					shortname: 'gilbarbara'

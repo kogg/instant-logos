@@ -21,7 +21,6 @@ module.exports = _.chain(fs.readdirSync(path.join(__dirname, 'node_modules/seanh
 		return {
 			id:          getSlug(shortname),
 			name:        names[i] + (names[i].toLowerCase().includes(shortname.replace('-', ' ')) ? '' : (' (' + shortname.toUpperCase() + ')')),
-			keywords:    ['government', 'america', 'states', 'united', 'usa'],
 			contributor: {
 				name:      'Sean Herron',
 				shortname: 'seanherron'

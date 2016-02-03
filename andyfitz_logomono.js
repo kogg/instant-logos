@@ -25,7 +25,6 @@ module.exports = _.chain(fs.readdirSync(path.join(__dirname, 'node_modules/andyf
 		return {
 			id:          getSlug(name + ' mono'),
 			name:        name,
-			keywords:    [],
 			contributor: {
 				name:      'Andy Fitzsimon',
 				shortname: 'andyfitz_logomono'
