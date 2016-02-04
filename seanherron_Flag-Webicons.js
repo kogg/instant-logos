@@ -18,7 +18,6 @@ module.exports = _.chain(fs.readdirSync(path.join(__dirname, 'node_modules/seanh
 		return {
 			id:          getSlug(file),
 			name:        name,
-			keywords:    ['flags', 'soverign', 'states'],
 			contributor: {
 				name:      'Sean Herron',
 				shortname: 'seanherron'

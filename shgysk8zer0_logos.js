@@ -33,7 +33,6 @@ module.exports = _.map({
 	return {
 		id:          getSlug(name),
 		name:        name,
-		keywords:    [],
 		contributor: {
 			name:      'Chris Zuber',
 			shortname: 'shgysk8zer0'
