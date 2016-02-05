@@ -15,7 +15,7 @@ module.exports = _.chain(fs.readdirSync(path.join(__dirname, 'node_modules/andyf
 	})
 	.map(function(file) {
 		file = file.replace(/\.svg$/, '');
-		var name = getSlug(file.replace(/[\-_](?:badge|icon|wordmark|(?:no)?logomark\|punchout)/, ''), {
+		var name = getSlug(file.replace(/[\-_](?:badge|icon|wordmark|(?:no)?logomark|punchout)/, ''), {
 			separator: ' ',
 			titleCase: ['and', 'of', 'the'],
 			custom:    { '-': ' ', '_': ' ' }
