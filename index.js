@@ -12,6 +12,7 @@ var logos = _.union(
 _.chain(logos)
 	.each(function(logo) {
 		logo.name = logo.name.replace(/amazon (?:aws|web services)/i, 'AWS');
+		logo.shortname = logo.shortname || logo.name.toLowerCase().replace(/[.\-() ]/gi, '');
 		logo.id = logo.source.shortname + '-' + logo.id.replace(/-\d+$/, '');
 	})
 	.groupBy('id')

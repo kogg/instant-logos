@@ -27,7 +27,7 @@ module.exports = _.chain(fs.readdirSync(path.join(__dirname, 'node_modules/andyf
 			name:        name,
 			contributor: {
 				name:      'Andy Fitzsimon',
-				shortname: 'andyfitz_logomono'
+				shortname: 'andyfitz'
 			},
 			source: {
 				name:      'logomono.',

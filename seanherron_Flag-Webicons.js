@@ -24,7 +24,7 @@ module.exports = _.chain(fs.readdirSync(path.join(__dirname, 'node_modules/seanh
 			},
 			source: {
 				name:      'Flag-Webicons',
-				shortname: getSlug('Flag-Webicons'),
+				shortname: 'flag-webicons',
 				url:       'https://github.com/seanherron/Flag-Webicons'
 			},
 			svg: {
