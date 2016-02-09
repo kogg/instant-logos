@@ -9,12 +9,11 @@ var logos = _.union(
 	require('./file_logos')
 );
 
-_.each(logos, function(logo) {
-	logo.name = logo.name.replace(/amazon (?:aws|web services)/i, 'AWS');
-	logo.id = logo.id.replace(/-\d+$/, '');
-});
-
 _.chain(logos)
+	.each(function(logo) {
+		logo.name = logo.name.replace(/amazon (?:aws|web services)/i, 'AWS');
+		logo.id = logo.source.shortname + '-' + logo.id.replace(/-\d+$/, '');
+	})
 	.groupBy('id')
 	.reject(_.matcher({ length: 1 }))
 	.each(function(group) {
