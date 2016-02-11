@@ -9,10 +9,10 @@ module.exports = _.chain(fs.readdirSync(path.join(__dirname, 'logos')))
 	})
 	.map(function(file) {
 		var file_parts = file.split('.');
-		var name       = ((file_parts.length < 2) ? file : _.initial(file_parts).join('.')).replace(/\(.*\)/, '');
+		var name       = (file_parts.length < 2) ? file : _.initial(file_parts).join('.');
 		return {
 			id:     getSlug(name),
-			name:   name,
+			name:   name.replace(/\(.*\)/, ''),
 			source: {
 				name:      'Instant Logo Search',
 				shortname: 'instantlogosearch',
