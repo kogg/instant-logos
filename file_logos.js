@@ -9,7 +9,7 @@ module.exports = _.chain(fs.readdirSync(path.join(__dirname, 'logos')))
 	})
 	.map(function(file) {
 		var file_parts = file.split('.');
-		var name       = (file_parts.length < 2) ? file : _.initial(file_parts).join('.');
+		var name       = ((file_parts.length < 2) ? file : _.initial(file_parts).join('.')).replace(/\(.*\)/, '');
 		return {
 			id:     getSlug(name),
 			name:   name,
