@@ -30,7 +30,7 @@ module.exports = _.chain(fs.readdirSync(path.join(__dirname, 'node_modules/andyf
 				shortname: 'andyfitz'
 			},
 			source: {
-				name:      'logomono.',
+				name:      'Logomono',
 				shortname: 'logomono',
 				url:       'http://logomono.com/'
 			},
