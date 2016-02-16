@@ -38,6 +38,7 @@ module.exports = _.map({
 			shortname: 'shgysk8zer0'
 		},
 		source: {
+			name:      'shgysk8zer0/logos',
 			shortname: 'shgysk8zer0-logos',
 			url:       'https://github.com/shgysk8zer0/logos'
 		},
