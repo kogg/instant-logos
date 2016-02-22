@@ -2,6 +2,10 @@ var _                = require('underscore');
 var gilbarbara_logos = require('logos/app/logos');
 var path             = require('path');
 
+var replacements = {
+	'Google +': 'Google Plus'
+};
+
 module.exports = _.chain(gilbarbara_logos)
 	.result('items')
 	.reject(function(logo) {
@@ -12,6 +16,7 @@ module.exports = _.chain(gilbarbara_logos)
 			logo.name = 'Google Chrome';
 			logo.shortname = 'google-chrome';
 		}
+		logo.name = replacements[logo.name] || logo.name;
 		return _.map(logo.files, function(file) {
 			return {
 				id:          logo.shortname,

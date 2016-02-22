@@ -23,7 +23,7 @@ module.exports = _.chain(fs.readdirSync(path.join(__dirname, 'node_modules/seanh
 				shortname: 'seanherron'
 			},
 			source: {
-				name:      'Flag-Webicons',
+				name:      'Flag Webicons',
 				shortname: 'flag-webicons',
 				url:       'https://github.com/seanherron/Flag-Webicons'
 			},

@@ -26,7 +26,7 @@ module.exports = _.chain(fs.readdirSync(path.join(__dirname, 'node_modules/seanh
 				shortname: 'seanherron'
 			},
 			source: {
-				name:      'Gov-Webicons',
+				name:      'Gov Webicons',
 				shortname: 'gov-webicons',
 				url:       'https://github.com/seanherron/Gov-Webicons'
 			},
