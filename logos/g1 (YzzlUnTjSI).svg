@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="46px" height="29px" viewBox="0 0 46 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,9.82054993 L0,19.6410999 C0,24.8031838 4.54426841,29 10.1174278,29 L30.3094129,29 L30.3094129,11.1635311 L19.0773532,11.1635311 L19.0773532,20.0607815 L13.7185461,20.0607815 C12.3038211,20.0607815 11.1891892,19.0115774 11.1891892,17.7105644 L11.1891892,9.02315485 C11.1891892,7.72214182 11.8751165,6.67293777 13.2898416,6.67293777 L22.2926375,6.67293777 L27.3513514,0 L10.1174278,0 C4.54426841,0.0419681621 0,4.65846599 0,9.82054993 L0,9.82054993 Z M34.7679404,9.02315485 L34.7679404,29 L46,29 L46,2.35021708 C46,1.04920405 44.8853681,0 43.4706431,0 L32.4100652,0 L27.3513514,6.67293777 L32.2385834,6.67293777 C33.6533085,6.67293777 34.7679404,7.72214182 34.7679404,9.02315485 L34.7679404,9.02315485 Z" id="path-1"></path>
+    </defs>
+    <g id="THUMB" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="aplicacao-AMP-com-foto" transform="translate(-80.000000, -291.000000)">
+            <g id="Group" transform="translate(80.000000, 291.000000)">
+                <g id="Shape">
+                    <use fill="none" xlink:href="#path-1"></use>
+                    <use fill="#C4170C" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
