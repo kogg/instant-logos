@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="155.28px" height="155.28px" viewBox="0 0 155.28 155.28" enable-background="new 0 0 155.28 155.28" xml:space="preserve">
+<g id="Zomr03_1_" display="none">
+</g>
+<rect x="0" fill="#ED2290" width="155.39" height="155.296"/>
+<path fill="#3E093A" d="M58.709,44.695"/>
+<g>
+	<defs>
+		<polygon id="SVGID_1_" points="143.488,82.236 143.488,143.193 10.59,143.193 10.59,23.743 		"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<g clip-path="url(#SVGID_2_)">
+		
+			<rect x="-33.158" y="31.393" transform="matrix(0.9098 0.4151 -0.4151 0.9098 29.9222 -2.9995)" fill="#FFFFFF" width="110.038" height="71.873"/>
+		
+			<rect x="90.583" y="59.821" transform="matrix(0.4151 -0.9098 0.9098 0.4151 -30.4796 182.2695)" fill="#FFFFFF" width="71.872" height="110.037"/>
+		
+			<rect x="-45.899" y="82.906" transform="matrix(0.4151 -0.9098 0.9098 0.4151 -131.3063 71.6039)" fill="#FFFFFF" width="71.872" height="110.038"/>
+		
+			<rect x="39.676" y="149.499" transform="matrix(-0.9098 -0.4151 0.4151 -0.9098 103.8685 393.4475)" fill="#FFFFFF" width="110.038" height="71.872"/>
+	</g>
+</g>
+</svg>
