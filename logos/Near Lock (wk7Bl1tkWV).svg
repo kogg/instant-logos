@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>Near Lock Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="27.7777778%" x2="100%" y2="72.2222222%" id="linearGradient-1">
+            <stop stop-color="#33A2C6" offset="0%"></stop>
+            <stop stop-color="#35C591" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Near-Lock-Logo" sketch:type="MSLayerGroup">
+            <rect id="Rectangle-2" opacity="0.337628265" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0.5" width="256" height="255" rx="62"></rect>
+            <path d="M143,121.669542 L143,138.492598 C143,145.124103 137.636601,150.5 130.992293,150.5 L125.007707,150.5 C118.376033,150.5 113,145.127324 113,138.492598 L113,121.669542 C106.344815,116.960837 102,109.202899 102,100.430176 C102,86.070772 113.640597,74.430176 128,74.430176 C142.359403,74.430176 154,86.070772 154,100.430176 C154,109.202899 149.655185,116.960837 143,121.669542 L143,121.669542 Z M66,101.428571 C66,145.808505 124.997285,221 128,221 C131.002463,221 190,145.785877 190,101.428571 C190,54.809995 154.557171,35 128,35 C101.442829,35 66,53.30608 66,101.428571 L66,101.428571 Z" id="Imported-Layers-2" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
