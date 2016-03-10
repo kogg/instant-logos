@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0  8 7">
+  <polygon id="mologo_beak" points="0 2 2 2 3 1" fill="#C93E26"/>
+  <polygon id="mologo_head" points="2 2 3 1 4 2" fill="#A42A1F"/>
+  <polygon id="mologo_body" points="2 2 4 2 5 5" fill="#5D0F0A"/>
+  <polygon id="mologo_tail" points="5 4 7 5 5 5" fill="#5D0F0A"/>
+  <polygon id="mologo_wing" points="8 2 4 2 5 5" fill="#882319"/>
+</svg>
