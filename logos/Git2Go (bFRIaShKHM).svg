@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#363A4E" offset="0%"></stop>
+            <stop stop-color="#1E212D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="iTunesArtwork@2x-Copy" sketch:type="MSArtboardGroup">
+            <g id="Group" sketch:type="MSLayerGroup">
+                <rect id="Rectangle-16" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup" x="0" y="0" width="1024" height="1024" rx="89.8249969"></rect>
+                <g id="git" transform="translate(297.600000, 365.866667)" fill="#FFFFFF" sketch:type="MSShapeGroup">
+                    <path d="M342.4,1.06666667 C342.4,68.48 309.973333,101.76 269.013333,143.573333 C251.093333,162.346667 231.466667,181.973333 215.253333,205.013333 C198.186667,179.413333 177.706667,158.933333 158.933333,140.16 C118.826667,99.2 86.4,66.7733333 86.4,1.06666667 L1.06666667,1.06666667 C1.06666667,101.76 52.2666667,153.813333 98.3466667,199.893333 C139.306667,241.706667 171.733333,274.986667 171.733333,342.4 L171.733333,353.493333 C146.133333,368 129.066667,396.16 129.066667,427.733333 C129.066667,474.666667 167.466667,513.066667 214.4,513.066667 C261.333333,513.066667 299.733333,474.666667 299.733333,427.733333 C299.733333,396.16 282.666667,368.853333 257.066667,353.493333 L257.066667,342.4 C257.066667,276.693333 289.493333,244.266667 329.6,203.306667 C373.12,158.933333 427.733333,103.466667 427.733333,1.06666667 L342.4,1.06666667 L342.4,1.06666667 Z M265.6,427.733333 C265.6,455.893333 242.56,478.933333 214.4,478.933333 C186.24,478.933333 163.2,455.893333 163.2,427.733333 C163.2,399.573333 186.24,376.533333 214.4,376.533333 C242.56,376.533333 265.6,399.573333 265.6,427.733333 L265.6,427.733333 L265.6,427.733333 Z" id="fork3"></path>
+                </g>
+                <rect id="Rectangle-33" fill="#ED5A5A" sketch:type="MSShapeGroup" x="256" y="221.866667" width="170.666667" height="42.6666667"></rect>
+                <g id="Rectangle-34-+-Rectangle-35" transform="translate(597.333333, 153.600000)" fill="#70D6E5" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-34" x="0" y="68.2666667" width="170.666667" height="42.6666667"></rect>
+                    <rect id="Rectangle-35" transform="translate(85.333333, 89.600000) rotate(-90.000000) translate(-85.333333, -89.600000) " x="0" y="68.2666667" width="170.666667" height="42.6666667"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
