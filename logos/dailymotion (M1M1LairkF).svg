@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>Dailymotion</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Color" sketch:type="MSArtboardGroup" transform="translate(-400.000000, -401.000000)" fill="#0066DC">
+            <g id="Line-3" sketch:type="MSLayerGroup" transform="translate(200.000000, 400.000000)">
+                <path d="M200,49 L248,49 L248,1 L200,1 L200,49 Z M241.390625,42.5654219 L234.236141,42.5654219 L234.236141,39.7597187 C232.038406,41.9107656 229.793797,42.7057187 226.801063,42.7057187 C223.761547,42.7057187 221.142875,41.7237344 218.945047,39.7597187 C216.045781,37.187875 214.549484,33.8210312 214.549484,29.8930469 C214.549484,26.2923437 215.952406,23.0658437 218.570984,20.5406875 C220.909109,18.2493906 223.761547,17.080375 226.941359,17.080375 C229.980875,17.080375 232.318953,18.1090937 234.002375,20.2600937 L234.002375,9.317875 L241.390625,7.78703125 L241.390625,42.5654219 Z M228.157203,23.6269844 C224.650016,23.6269844 221.937875,26.4794219 221.937875,29.8462656 C221.937875,33.3534531 224.650016,36.0188125 228.43775,36.0188125 C231.617563,36.0188125 234.282922,33.4001875 234.282922,29.9397813 C234.282922,26.3391719 231.617563,23.6269844 228.157203,23.6269844 Z" id="Dailymotion" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
