@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="447px" height="508px" viewBox="0 0 447 508" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Deepstream.io</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Deepstream.io" transform="translate(-3.000000, -4.000000)">
+            <g id="ds-logo">
+                <path d="M226.548673,31.2637168 L30.3575221,144.538053 L399.178761,357.493805 L226.548673,457.175221" id="Shape" stroke="#3A739B" stroke-width="6"></path>
+                <path d="M226.548673,484.361062 L422.739823,371.086726 L422.739823,144.538053 L226.548673,31.2637168 L226.548673,484.361062 L226.548673,484.361062 Z" id="Shape" stroke="#43ABE1" stroke-width="6"></path>
+                <circle id="Oval" fill="#43ABE1" cx="226.548673" cy="484.361062" r="27.1858407"></circle>
+                <circle id="Oval" fill="#43ABE1" cx="422.739823" cy="371.086726" r="27.1858407"></circle>
+                <circle id="Oval" fill="#43ABE1" cx="422.739823" cy="144.538053" r="27.1858407"></circle>
+                <circle id="Oval" fill="#43ABE1" cx="226.548673" cy="31.2637168" r="27.1858407"></circle>
+                <circle id="Oval" fill="#3A739B" cx="30.3575221" cy="144.538053" r="27.1858407"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

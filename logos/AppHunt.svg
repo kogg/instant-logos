@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="508px" height="508px" viewBox="0 0 508 508" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>AppHunt</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-20.1719227%" y1="-19.1875527%" x2="99.3978646%" y2="99.6345693%" id="linearGradient-1">
+            <stop stop-color="#000000" stop-opacity="0.25882354" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AppHunt" transform="translate(-2.000000, -2.000000)">
+            <g id="layer1" transform="translate(1.700499, 0.640304)">
+                <circle id="path2985-9" fill="#29B1CC" cx="254.299501" cy="255.359696" r="253.465347"></circle>
+                <path d="M429.754728,87.5287319 L87.2497679,265.697027 L179.51711,341.538623 L86.8190796,445.320795 C133.054013,486.164265 192.597805,508.743348 254.289388,508.825752 C394.274433,508.825752 507.754734,395.345451 507.754734,255.360406 C507.74745,206.935237 493.868316,159.525611 467.759677,118.741595 L429.754728,87.5287319 L429.754728,87.5287319 Z" id="path2985-9-5" fill="url(#linearGradient-1)"></path>
+                <path d="M167.304846,310.72953 L57.0672412,414.927563 C70.0233758,430.871496 84.8699311,445.18111 101.280114,457.541424 L216.159987,330.463531 L167.304846,310.72953 Z" id="path5140" fill="#FFFFFF"></path>
+                <path d="M173.994151,299.890896 L87.2410741,265.697559 L429.80025,87.5149434 L358.478042,374.313568 L222.690421,319.454112 L372.436379,145.39041 L173.994151,299.890896 Z" id="path5128" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
