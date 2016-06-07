@@ -25,7 +25,7 @@
   "dependencies": {
     "logos": "gilbarbara/logos#app",
     "napa": "^2.3.0",
-    "speakingurl": "^8.0.2",
+    "speakingurl": "^9.0.0",
     "underscore": "^1.8.3"
   },
   "napa": {
@@ -35,8 +35,8 @@
     "shgysk8zer0_logos": "shgysk8zer0/logos"
   },
   "devDependencies": {
-    "eslint": "^1.10.3",
-    "eslint-config-xo": "^0.9.2",
+    "eslint": "^2.11.1",
+    "eslint-config-xo": "^0.14.1",
     "pre-commit": "^1.1.2"
   }
 }
