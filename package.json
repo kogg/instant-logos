@@ -24,7 +24,7 @@
   "homepage": "https://github.com/kogg/instant-logos#readme",
   "dependencies": {
     "logos": "gilbarbara/logos#app",
-    "napa": "^2.3.0",
+    "napa": "^3.0.0",
     "speakingurl": "^9.0.0",
     "underscore": "^1.8.3"
   },
